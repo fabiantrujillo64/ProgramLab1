@@ -1,22 +1,31 @@
 #include <iostream>
 #include <math.h>
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
     int angle;
-    //double sinOfAngle;
 
-    //sinOfAngle = sin(angle);
 
     cout << "\n\n";
-    cout << "Enter an Angle in Degrees: ";
+    cout << setw(10) << "" << "Enter an Angle in Degrees: ";
     cin  >> angle;
     cout << endl;
-    cout << "sin of the Angle: " << sin(angle*M_PI/180) << endl;
-    cout << "cos of the Angle: " << cos(angle*M_PI/180) << endl;
-    cout << "tan of the Angle: " << tan(angle*M_PI/180) << endl;
-    cout << "sin of the Angle: " << sin(angle*180/M_PI);
+    cout << fixed << showpoint << setprecision(4);
+    cout << setw(10) << "" << "sin of the Angle: "
+         << sin(angle*(M_PI/180)) << endl;
+    cout << setw(10) << "" << "cos of the Angle: "
+         << cos(angle*(M_PI/180)) << endl;
+    cout << setw(10) << "" << "tan of the Angle: "
+         << tan(angle*(M_PI/180)) << endl;
+    cout << endl;
+    cout << setw(10) << "" << "The Angle in Radians is, sin:  "
+         << sin(angle*(M_PI/180)) << endl;
+    cout << setw(10) << "" << "The Angle in Radians is, cos:  "
+         << cos(angle*(M_PI/180)) << endl;
+    cout << setw(10) << "" << "The Angle in Radians is, tan:  "
+         << tan(angle*(M_PI/180)) << endl;
     return 0;
 }
