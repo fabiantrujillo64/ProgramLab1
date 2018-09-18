@@ -1,5 +1,5 @@
 /****************************************************************************
-*             Programming Lab 02: Celsius to Fahrenheit                     *
+*             Programming Lab 04: SinCosTan                                 *
 *                                                                           *
 *   This program calculate sin,cos,tan in both radians and degrees.         *
 *                                                                           *
