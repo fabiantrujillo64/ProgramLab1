@@ -1,3 +1,11 @@
+/****************************************************************************
+*             Programming Lab 02: Celsius to Fahrenheit                     *
+*                                                                           *
+*   This program calculate sin,cos,tan in both radians and degrees.         *
+*                                                                           *
+*   @Author 29, Fabian Trujillo 5, Jason Betsargon                          *
+*   @Created September 13, 2018                                             *
+****************************************************************************/
 #include <iostream>
 #include <math.h>
 #include <iomanip>
