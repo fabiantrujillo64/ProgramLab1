@@ -1,4 +1,3 @@
-
 /****************************************************************************
 *             Programming Lab 03: Arithmetic                                *
 *                                                                           *
@@ -57,13 +56,20 @@ int main()
 
     /// Displaying everything
     cout << "\n";
-    cout << setw(10) << "" << "Sum of num1 and num2                  : " << setw(6) << sum << endl;
-    cout << setw(10) << "" << "Difference of num1 and num2           : " << setw(6) << difference << endl;
-    cout << setw(10) << "" << "Proudcut of num1 and num2             : " << setw(6) << product << endl;
-    cout << setw(10) << "" << "Division of num1 and num2             : " << setw(6) << divide << endl;
-    cout << setw(10) << "" << "Modulus of num1 and num2              : " << setw(6) << mod << endl;
-    cout << setw(10) << "" << "num1 raised to the power of num2      : " << setw(6) << powToSecond << endl;
-    cout << setw(10) << "" << "Absolute value of difference          : " << setw(6) << absoluteValue << endl;
+    cout << setw(10) << "" << "Sum of num1 and num2                  : "
+         << setw(6) << sum << endl;
+    cout << setw(10) << "" << "Difference of num1 and num2           : "
+         << setw(6) << difference << endl;
+    cout << setw(10) << "" << "Proudcut of num1 and num2             : "
+         << setw(6) << product << endl;
+    cout << setw(10) << "" << "Division of num1 and num2             : "
+         << setw(6) << divide << endl;
+    cout << setw(10) << "" << "Modulus of num1 and num2              : "
+         << setw(6) << mod << endl;
+    cout << setw(10) << "" << "num1 raised to the power of num2      : "
+         << setw(6) << powToSecond << endl;
+    cout << setw(10) << "" << "Absolute value of difference          : "
+         << setw(6) << absoluteValue << endl;
 
 
 
