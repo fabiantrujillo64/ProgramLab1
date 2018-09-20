@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     int angle;
-    double CPI = 3.1415926535;
+    double CPI = 3.14159;
 
 
     cout << "\n\n";
